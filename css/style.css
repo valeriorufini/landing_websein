@@ -653,6 +653,7 @@ body {
   font-size: 1.6rem;
   font-weight: 700;
   text-transform: uppercase;
+  color: #ff9600;
 }
 .paragraph {
   font-size: 1.6rem;
@@ -746,11 +747,11 @@ body {
   background-color: #fff;
 }
 .btn--green {
-  background-color: #55c57a;
+  background-color: #ff9600;
   color: #fff;
 }
 .btn--green::after {
-  background-color: #55c57a;
+  background-color: #ff9600;
 }
 .btn::after {
   content: "";
@@ -802,6 +803,7 @@ body {
   -moz-perspective: 150rem;
   position: relative;
   height: 52rem;
+  width: 80rem;
 }
 .card__side {
   height: 52rem;
@@ -880,9 +882,9 @@ body {
       from(#ffb900),
       to(#ff7730)
     ),
-    url(../img/nat-5.jpg);
+    url(../img/code.jpg);
   background-image: linear-gradient(to right bottom, #ffb900, #ff7730),
-    url(../img/nat-5.jpg);
+    url(../img/code.jpg);
 }
 .card__picture--2 {
   background-image: -webkit-gradient(
@@ -1148,8 +1150,12 @@ body {
   );
   background-image: linear-gradient(to right, #7ed56f, #28b485);
   -webkit-background-clip: text;
-  color: transparent;
+  color: #ff9600;
 }
+
+/* .feature-box-text {
+  color: #ff9600;
+} */
 @media only screen and (max-width: 56.25em) {
   .feature-box__icon {
     margin-bottom: 0;
@@ -1836,8 +1842,8 @@ body {
     url(../img/nat-4.jpg);
   background-image: linear-gradient(
       to right bottom,
-      rgba(126, 213, 111, 0.8),
-      rgba(40, 180, 133, 0.8)
+      rgba(42, 157, 244, 0.8),
+      rgba(3, 37, 76, 0.8)
     ),
     url(../img/nat-4.jpg);
   background-size: cover;
